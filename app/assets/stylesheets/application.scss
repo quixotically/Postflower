@@ -1,0 +1,122 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ html, body, nav, section, article, ul, li, button, fieldset, figure, figcaption,
+ main, img, h1, h2, h3, p, strong, a, div, span, footer {
+   margin: 0;
+   border: 0;
+   padding: 0;
+   outline: 0;
+
+   box-sizing: inherit;
+   font: inherit;
+   text-decoration: inherit;
+   text-align: inherit;
+   color: inherit;
+
+   background: transparent;
+ }
+
+ .group:after {
+   content: "";
+   display: block;
+   clear: both;
+ }
+
+ html, body {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+ }
+
+ body {
+   font-family: sans-serif;
+ }
+
+ ul {
+   list-style: none;
+ }
+
+ img {
+   width: 100%;
+   height: auto;
+   display: block;
+ }
+
+ img[src=""] {
+   display: none;
+ }
+
+ h1 {
+   font-size: 36px;
+   font-weight: 700;
+ }
+
+ h2 {
+   font-size: 32px;
+   font-weight: 700;
+ }
+
+ h3 {
+   font-size: 28px;
+   font-weight: 400;
+ }
+
+ a:hover {
+   text-decoration: underline;
+ }
+
+ button {
+   padding: 2px;
+   margin: 2px;
+   font-size: 14px;
+   border: 1px solid #ccc;
+   background: #ED2737;
+   color: #fff;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+
+ button:hover {
+   background: #ED5562;
+ }
+
+ button:disabled {
+   opacity: 0.5;
+ }
+
+ button:hover:disabled {
+   cursor: default;
+   background: #ED2737;
+ }
+
+ .main {
+   text-align: center;
+ }
+
+ .hidden {
+   display: none;
+ }
+
+.logo {
+   display: block;
+   padding-top: 60px;
+   height: 0;
+   overflow: hidden;
+   background: image-url("Postflower-logo.png");
+   background-size: 100px;
+   width: 100px;
+   float: left;
+ }
