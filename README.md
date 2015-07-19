@@ -1,5 +1,5 @@
 # Postflower
-A social media platform that deletes your posts after a user-set amount of time. The default is one week.
+A social networking site that deletes your posts after a user-set amount of time. The default is one week.
 
 [Live version](http://www.postflower.co/)
 
