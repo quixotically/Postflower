@@ -20,7 +20,7 @@ Postflower is a social networking site built on Rails and Backbone. Users can:
 ## Implementation Timeline
 
 ### Phase 1: User Authentication and Mockup Profiles
-I will implement user authentication in Rails and Backbone, using API routes to serve data as JSON. I will add Backbone models and collections that fetch data from those routes. By the end of this phase, users will be able to create an account, log in, and view their profiles.
+I will implement user authentication in Rails and Backbone, using API routes to serve data as JSON. I will add Backbone models and collections that fetch data from those routes. By the end of this phase, users will be able to create an account, log in, and view on outline of their profiles.
 
 [Details][phase-one]
 

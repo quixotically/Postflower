@@ -4,7 +4,8 @@
 column name     | data type | details
 ----------------|-----------|-----------------------
 id              | integer   | not null, primary key
-username        | string    | not null
+fname           | string    | not null
+lname           | string    | not null
 email           | string    | not null, unique
 password_digest | string    | not null
 session_token   | string    | not null, unique
