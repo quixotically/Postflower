@@ -2,3 +2,10 @@
 <main id="main">
   <a class="logo" href="#">Postflower</a>
 </main>
+
+<script>
+  $(document).ready(function () {
+    <%= current_user_id = current_user.id if current_user %>
+    Postflower.initialize(<%= current_user_id %>);
+  });
+</script>

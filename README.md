@@ -4,6 +4,15 @@ A social networking site that deletes your posts after a user-set amount of time
 [Live version](http://www.postflower.co/)
 
 ## Dependencies
+I used the backbone-on-rails gem for setting up the javascript directory structure, generating basic boilerplate code, and serving backbone.js and underscore.js. The terminal command for setting up the Backbone and its javascript directory structure is
+```
+rails generate backbone:install --javascript
+```
+and the command for generating scaffolds for models is
+```
+rails generate backbone:scaffold ModelName --javascript
+```
+These commands generate the boilerplate code needed for Backbone.
 
 ## Configuration
 
