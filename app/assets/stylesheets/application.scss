@@ -13,102 +13,102 @@
  *= require_tree .
  *= require_self
  */
- html, body, nav, section, article, ul, li, button, fieldset, figure, figcaption,
- main, img, h1, h2, h3, p, strong, a, div, span, footer {
-   margin: 0;
-   border: 0;
-   padding: 0;
-   outline: 0;
+html, body, nav, section, article, ul, li, button, fieldset, figure, figcaption,
+main, img, h1, h2, h3, p, strong, a, div, span, footer {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
 
-   box-sizing: inherit;
-   font: inherit;
-   text-decoration: inherit;
-   text-align: inherit;
-   color: inherit;
+  box-sizing: inherit;
+  font: inherit;
+  text-decoration: inherit;
+  text-align: inherit;
+  color: inherit;
 
-   background: transparent;
- }
+  background: transparent;
+}
 
- .group:after {
-   content: "";
-   display: block;
-   clear: both;
- }
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
 
- html, body {
-   height: 100%;
-   margin: 0;
-   padding: 0;
- }
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
- body {
-   font-family: sans-serif;
- }
+body {
+  font-family: sans-serif;
+}
 
- ul {
-   list-style: none;
- }
+#main {
+  text-align: center;
+}
 
- img {
-   width: 100%;
-   height: auto;
-   display: block;
- }
+ul {
+  list-style: none;
+}
 
- img[src=""] {
-   display: none;
- }
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
- h1 {
-   font-size: 36px;
-   font-weight: 700;
- }
+img[src=""] {
+  display: none;
+}
 
- h2 {
-   font-size: 32px;
-   font-weight: 700;
- }
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
 
- h3 {
-   font-size: 28px;
-   font-weight: 400;
- }
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
 
- a:hover {
-   text-decoration: underline;
- }
+h3 {
+  font-size: 28px;
+  font-weight: 400;
+}
 
- button {
-   padding: 2px;
-   margin: 2px;
-   font-size: 14px;
-   border: 1px solid #ccc;
-   background: #ED2737;
-   color: #fff;
-   border-radius: 5px;
-   cursor: pointer;
- }
+a:hover {
+  text-decoration: underline;
+}
 
- button:hover {
-   background: #ED5562;
- }
+button {
+  padding: 2px;
+  margin: 2px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  background: #ED2737;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
- button:disabled {
-   opacity: 0.5;
- }
+button:hover {
+  background: #ED5562;
+}
 
- button:hover:disabled {
-   cursor: default;
-   background: #ED2737;
- }
+button:disabled {
+  opacity: 0.5;
+}
 
- .main {
-   text-align: center;
- }
+button:hover:disabled {
+  cursor: default;
+  background: #ED2737;
+}
 
- .hidden {
-   display: none;
- }
+.hidden {
+  display: none;
+}
 
 .logo {
    display: block;
