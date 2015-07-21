@@ -20,8 +20,8 @@
 * Users
 
 ### Views
+* Home
 * UserNew
 * UserShow
-* SessionNew
 
 ## Gems/Libraries
