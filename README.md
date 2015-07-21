@@ -24,3 +24,6 @@ I will need to set up PostgreSQL triggers every x amount of time (will start wit
 
 ## Performance
 I indexed foreign keys for faster lookup.
+
+## Utils
+I used a namespaced ```_flashMessage``` function to handle flash messages. When I want to create a message, I feed the function the message and the type (error or success) to display the message in a popup container with the appropriate text and coloring.
