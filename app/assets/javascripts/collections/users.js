@@ -1,5 +1,17 @@
 Postflower.Collections.Users = Backbone.Collection.extend({
+  url: "/api/users",
+  model: Postflower.Models.User,
 
-  model: Postflower.Models.User
+  getAndFetch: function (id) {
+    var user = this.get(id),
+        users = this;
+    if (user) {
+      user.fetch();
+    } else {
+      user = new this.model({ id: id });
+      user.fetch({ success: function () { users.add(user); }});
+    }
 
+    return user;
+  }
 });
